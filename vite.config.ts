@@ -4,7 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
-    base: './',
+    base: '/pahalstyle/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
