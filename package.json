@@ -1,5 +1,6 @@
 
-  {
+  {     
+      "homepage": "https://jaya030888.github.io/pahalstyle",
       "name": "PahalStyle Website Design",
       "version": "0.1.0",
       "private": true,
@@ -54,7 +55,9 @@
           "vite": "6.3.5"
       },
       "scripts": {
-          "dev": "vite",
-          "build": "vite build"
+        "dev": "vite",
+        "build": "vite build",
+        "predeploy": "npm run build",     
+        "deploy": "gh-pages -d dist"
       }
   }
